@@ -3,12 +3,15 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="Miguel Herrera Miranda — Popular Investor en eToro (@NIQUE3). Psicología, análisis y gestión de riesgos desde Canarias." />
-  <meta name="theme-color" content="#0b0f14" />
+  <meta name="description" content="Miguel Herrera Miranda — Popular Investor en eToro (@NIQUE3) desde 2017. Psicología, análisis técnico y fundamental y gestión de riesgos desde Canarias." />
+  <meta name="theme-color" content="#000000" />
+  <meta property="og:title" content="Miguel Herrera Miranda · @NIQUE3 en eToro" />
+  <meta property="og:description" content="Popular Investor en eToro desde 2017. Inversión con criterio desde Canarias." />
+  <meta property="og:image" content="assets/profile.jpg" />
+  <meta property="og:type" content="profile" />
   <title>Miguel Herrera Miranda · Popular Investor eToro @NIQUE3</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet" />
+  <link rel="icon" href="assets/profile.jpg" type="image/jpeg" />
+  <link rel="preload" as="image" href="assets/profile.jpg" />
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
@@ -16,8 +19,8 @@
 
   <header class="site-header">
     <div class="container header-inner">
-      <a class="logo" href="#inicio" aria-label="Inicio">
-        <span class="logo-mark">N3</span>
+      <a class="logo" href="#inicio" aria-label="Miguel Herrera Miranda, inicio">
+        <img class="logo-avatar" src="assets/profile.jpg" alt="" width="32" height="32" />
         <span class="logo-text">NIQUE3</span>
       </a>
       <nav class="nav" aria-label="Principal">
@@ -30,206 +33,121 @@
           <li><a href="#quien-soy">Quién soy</a></li>
           <li><a href="#metodologia">Metodología</a></li>
           <li><a href="#enfoque">Enfoque</a></li>
-          <li><a class="nav-cta" href="https://etoro.tw/2UERY67" target="_blank" rel="noopener noreferrer">Copiar en eToro</a></li>
+          <li><a href="#aviso">Aviso de riesgo</a></li>
+          <li><a class="nav-cta" href="https://etoro.tw/44SswJ0" target="_blank" rel="noopener noreferrer">Invierte en eToro</a></li>
         </ul>
       </nav>
     </div>
   </header>
 
   <main id="main">
-    <!-- HERO -->
     <section class="hero" id="inicio">
       <div class="hero-glow" aria-hidden="true"></div>
       <div class="container hero-grid">
+        <div class="hero-photo">
+          <div class="photo-ring">
+            <img src="assets/profile.jpg" alt="Retrato de Miguel Herrera Miranda" width="310" height="310" fetchpriority="high" />
+          </div>
+          <span class="badge"><span class="dot" aria-hidden="true"></span> Popular Investor · eToro</span>
+        </div>
         <div class="hero-copy">
-          <p class="eyebrow">Popular Investor · Champion en eToro</p>
-          <h1>
-            Miguel Herrera Miranda
-            <span class="hero-handle">@NIQUE3</span>
-          </h1>
+          <p class="eyebrow">@NIQUE3 · Canarias</p>
+          <h1>Miguel <span class="accent">Herrera</span> Miranda</h1>
           <p class="hero-lead">
-            Inversión con criterio desde Canarias. Psicología de mercado,
-            análisis técnico y fundamental, y gestión de riesgos — desde 2017.
+            Popular Investor en eToro desde 2017. Inversión con criterio desde Canarias:
+            psicología de mercado, análisis técnico y fundamental, y gestión de riesgos.
           </p>
           <div class="hero-actions">
-            <a class="btn btn-primary" href="https://etoro.tw/2UERY67" target="_blank" rel="noopener noreferrer">
-              Copiar en eToro
-              <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            <a class="btn btn-primary" href="https://etoro.tw/44SswJ0" target="_blank" rel="noopener noreferrer">
+              Invierte en eToro
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
             </a>
-            <a class="btn btn-ghost" href="https://www.linkedin.com/in/miguelherreramiranda" target="_blank" rel="noopener noreferrer">
-              LinkedIn
-            </a>
+            <a class="btn btn-ghost" href="https://www.etoro.com/people/nique3" target="_blank" rel="noopener noreferrer">Ver perfil @NIQUE3</a>
           </div>
-          <ul class="hero-meta" aria-label="Datos clave">
-            <li><strong>@NIQUE3</strong> · eToro</li>
-            <li>Canarias / Tenerife</li>
-            <li>Desde 2017</li>
+          <ul class="social" aria-label="Redes sociales">
+            <li><a class="social-btn" href="https://www.etoro.com/people/nique3" target="_blank" rel="noopener noreferrer" data-social="etoro" aria-label="Perfil de eToro">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M3 17.5 9 11l4 4 8-9v3.2l-8 8.6-4-4-6 6.4z"/></svg></a></li>
+            <li><a class="social-btn" href="https://www.linkedin.com/in/miguelherreramiranda" target="_blank" rel="noopener noreferrer" data-social="linkedin" aria-label="LinkedIn">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 9h4v12H3zM9 9h3.8v1.7h.05c.53-1 1.83-2.05 3.77-2.05 4.03 0 4.78 2.65 4.78 6.1V21h-4v-5.5c0-1.3-.02-3-1.83-3-1.84 0-2.12 1.43-2.12 2.9V21H9z"/></svg></a></li>
+            <li><a class="social-btn" href="https://www.instagram.com/nique3etoro/" target="_blank" rel="noopener noreferrer" data-social="instagram" aria-label="Instagram @nique3etoro">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2.2c3.2 0 3.58 0 4.85.07 3.25.15 4.77 1.69 4.92 4.92.06 1.27.07 1.65.07 4.85s0 3.58-.07 4.85c-.15 3.23-1.66 4.77-4.92 4.92-1.27.06-1.65.07-4.85.07s-3.58 0-4.85-.07c-3.26-.15-4.77-1.7-4.92-4.92C2.17 15.58 2.16 15.2 2.16 12s0-3.58.07-4.85C2.38 3.92 3.9 2.38 7.15 2.23 8.42 2.17 8.8 2.16 12 2.16zm0 4.86a4.94 4.94 0 1 0 0 9.88 4.94 4.94 0 0 0 0-9.88zm0 8.15a3.2 3.2 0 1 1 0-6.42 3.2 3.2 0 0 1 0 6.42zm5.14-9.5a1.15 1.15 0 1 0 0 2.3 1.15 1.15 0 0 0 0-2.3z"/></svg></a></li>
+            <li><a class="social-btn" href="https://x.com/NIQUE3etoro" target="_blank" rel="noopener noreferrer" data-social="x" aria-label="X @NIQUE3etoro">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M18.24 2.25h3.31l-7.23 8.26 8.5 11.24h-6.66l-5.21-6.82-5.97 6.82H1.67l7.73-8.84L1.25 2.25h6.83l4.71 6.23zm-1.16 17.52h1.83L7.08 4.13H5.12z"/></svg></a></li>
           </ul>
         </div>
-        <aside class="hero-card" aria-label="Resumen del perfil">
-          <div class="card-glow" aria-hidden="true"></div>
-          <p class="card-label">Perfil</p>
-          <p class="card-title">Popular Investor</p>
-          <p class="card-sub">Champion · eToro</p>
-          <hr class="card-divider" />
-          <ul class="card-pillars">
-            <li>Psicología</li>
-            <li>Análisis técnico &amp; fundamental</li>
-            <li>Gestión de riesgos</li>
-          </ul>
-          <p class="card-note">Enfoque de riesgo controlado. Sin cifras inventadas: consulta el perfil en eToro para datos actualizados.</p>
-        </aside>
       </div>
     </section>
 
-    <!-- QUIÉN SOY -->
     <section class="section" id="quien-soy">
       <div class="container narrow">
         <p class="section-eyebrow">Quién soy</p>
-        <h2>Trader e inversor con base en Tenerife</h2>
+        <h2>Trader e inversor con base en Canarias</h2>
         <div class="prose">
-          <p>
-            Soy <strong>Miguel Herrera Miranda</strong>, Popular Investor y Champion en eToro
-            bajo el usuario <strong>@NIQUE3</strong>. Opero desde las Islas Canarias con una
-            visión de largo recorrido: disciplina, formación continua y respeto por el riesgo.
-          </p>
-          <p>
-            Mi trayectoria en los mercados arranca en <strong>2017</strong>. Combino formación
+          <p>Soy <strong>Miguel Herrera Miranda</strong>, Popular Investor en eToro bajo el usuario
+            <strong>@NIQUE3</strong>. Opero desde las Islas Canarias con una visión de largo recorrido:
+            disciplina, formación continua y respeto por el riesgo.</p>
+          <p>Mi trayectoria como Popular Investor arranca en <strong>2017</strong>. Combino formación
             especializada en bolsa y trading con la práctica diaria sobre acciones, criptoactivos
-            (como BTC y ETH) y otros activos, siempre con un enfoque cualitativo y de riesgo controlado.
-          </p>
-          <p>
-            Formación IBT: experto en bolsa y trading avanzado, analista técnico y estrategias de trading.
-          </p>
+            (como BTC y ETH) y otros activos, siempre con un enfoque de riesgo controlado.</p>
+          <p>Formación IBT: experto en bolsa y trading avanzado, analista técnico y estrategias de trading.</p>
         </div>
       </div>
     </section>
 
-    <!-- METODOLOGÍA -->
     <section class="section section-alt" id="metodologia">
       <div class="container">
         <p class="section-eyebrow">Metodología</p>
         <h2>Tres pilares que guían cada decisión</h2>
         <div class="pillars">
-          <article class="pillar">
-            <span class="pillar-num" aria-hidden="true">01</span>
+          <article class="pillar"><span class="pillar-num" aria-hidden="true">01</span>
             <h3>Psicología</h3>
-            <p>
-              Control emocional, paciencia y disciplina. Evitar impulsos y mantener
-              el plan cuando el mercado pone a prueba la convicción.
-            </p>
-          </article>
-          <article class="pillar">
-            <span class="pillar-num" aria-hidden="true">02</span>
+            <p>Control emocional, paciencia y disciplina. Evitar impulsos y mantener el plan cuando el mercado pone a prueba la convicción.</p></article>
+          <article class="pillar"><span class="pillar-num" aria-hidden="true">02</span>
             <h3>Análisis técnico y fundamental</h3>
-            <p>
-              Lectura de precio y contexto, junto con fundamentos del activo y del
-              entorno macro, para decidir con información — no con ruido.
-            </p>
-          </article>
-          <article class="pillar">
-            <span class="pillar-num" aria-hidden="true">03</span>
+            <p>Lectura de precio y contexto, junto con los fundamentos del activo y del entorno macro, para decidir con información, no con ruido.</p></article>
+          <article class="pillar"><span class="pillar-num" aria-hidden="true">03</span>
             <h3>Gestión de riesgos</h3>
-            <p>
-              Posicionamiento medido, límites claros y un enfoque de riesgo controlado.
-              Preservar capital es parte del proceso, no un después.
-            </p>
-          </article>
+            <p>Posicionamiento medido, límites claros y riesgo controlado. Preservar capital es parte del proceso.</p></article>
         </div>
       </div>
     </section>
 
-    <!-- ENFOQUE -->
     <section class="section" id="enfoque">
-      <div class="container">
-        <div class="enfoque-grid">
-          <div>
-            <p class="section-eyebrow">Enfoque</p>
-            <h2>Activos y estilo de inversión</h2>
-            <p class="enfoque-lead">
-              Un enfoque cualitativo sobre mercados líquidos, con especial atención a
-              acciones y criptoactivos, siempre alineado con una gestión de riesgos consciente.
-            </p>
-          </div>
-          <ul class="asset-list">
-            <li>
-              <span class="asset-icon" aria-hidden="true">↗</span>
-              <div>
-                <strong>Acciones</strong>
-                <span>Selección con criterio técnico y fundamental</span>
-              </div>
-            </li>
-            <li>
-              <span class="asset-icon" aria-hidden="true">◈</span>
-              <div>
-                <strong>Crypto (BTC / ETH y más)</strong>
-                <span>Exposición cualitativa a activos digitales</span>
-              </div>
-            </li>
-            <li>
-              <span class="asset-icon" aria-hidden="true">◎</span>
-              <div>
-                <strong>Otros activos</strong>
-                <span>Oportunidades según contexto de mercado</span>
-              </div>
-            </li>
-            <li>
-              <span class="asset-icon" aria-hidden="true">◇</span>
-              <div>
-                <strong>Riesgo controlado</strong>
-                <span>Prioridad a la preservación y al proceso</span>
-              </div>
-            </li>
-          </ul>
+      <div class="container enfoque-grid">
+        <div>
+          <p class="section-eyebrow">Enfoque</p>
+          <h2>Activos y estilo de inversión</h2>
+          <p class="enfoque-lead">Mercados líquidos, con especial atención a acciones y criptoactivos, siempre alineado con una gestión de riesgos consciente.</p>
         </div>
+        <ul class="asset-list">
+          <li><strong>Acciones</strong><span>Selección con criterio técnico y fundamental</span></li>
+          <li><strong>Cripto (BTC / ETH y más)</strong><span>Exposición medida a activos digitales</span></li>
+          <li><strong>Otros activos</strong><span>Oportunidades según el contexto de mercado</span></li>
+          <li><strong>Riesgo controlado</strong><span>Prioridad a la preservación y al proceso</span></li>
+        </ul>
       </div>
     </section>
 
-    <!-- CTA -->
-    <section class="section cta-section" id="cta">
+    <section class="section" id="cta">
       <div class="container">
         <div class="cta-panel">
-          <p class="section-eyebrow light">Siguiente paso</p>
-          <h2>Sigue a @NIQUE3 en eToro</h2>
-          <p>
-            Copia la estrategia en eToro o conecta en LinkedIn para conocer más
-            sobre el recorrido de Miguel Herrera Miranda.
-          </p>
-          <div class="hero-actions">
-            <a class="btn btn-primary" href="https://etoro.tw/2UERY67" target="_blank" rel="noopener noreferrer">
-              Copiar en eToro
-              <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
-            </a>
-            <a class="btn btn-ghost btn-ghost-light" href="https://www.linkedin.com/in/miguelherreramiranda" target="_blank" rel="noopener noreferrer">
-              Perfil de LinkedIn
-            </a>
+          <h2>Sigue a <span class="accent">@NIQUE3</span> en eToro</h2>
+          <p>Consulta el perfil público para ver datos actualizados, o conecta en LinkedIn.</p>
+          <div class="hero-actions center">
+            <a class="btn btn-primary" href="https://etoro.tw/44SswJ0" target="_blank" rel="noopener noreferrer">Invierte en eToro</a>
+            <a class="btn btn-ghost" href="https://www.linkedin.com/in/miguelherreramiranda" target="_blank" rel="noopener noreferrer">LinkedIn</a>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- DISCLAIMER -->
     <section class="section disclaimer" id="aviso">
       <div class="container narrow">
-        <h2 class="disclaimer-title">Aviso importante</h2>
+        <h2 class="disclaimer-title">Aviso de riesgo</h2>
         <div class="prose disclaimer-body">
-          <p>
-            El trading y la inversión en instrumentos financieros, incluidos CFDs y criptoactivos,
-            conllevan un <strong>alto riesgo de pérdida de capital</strong>. Puedes perder parte o
-            la totalidad de tu inversión. Opera solo con capital que puedas permitirte perder.
-          </p>
-          <p>
-            Los resultados pasados <strong>no garantizan resultados futuros</strong>. El rendimiento
-            histórico no es un indicador fiable del rendimiento futuro.
-          </p>
-          <p>
-            Esta página es de carácter <strong>informativo y promocional personal</strong>.
-            <strong>No es un sitio oficial de eToro</strong> ni está afiliada a eToro de forma
-            corporativa más allá del perfil de Popular Investor. El contenido
-            <strong>no constituye asesoramiento financiero, de inversión ni de ningún otro tipo</strong>.
-            Antes de invertir, consulta fuentes oficiales, lee la documentación de riesgo del
-            broker y, si procede, busca asesoramiento profesional independiente.
-          </p>
+          <p>Los CFDs son instrumentos complejos y conllevan un <strong>alto riesgo de perder dinero rápidamente</strong> debido al apalancamiento. Los criptoactivos son muy volátiles y no están regulados en muchos países. Puedes perder parte o la totalidad de tu capital; invierte solo lo que puedas permitirte perder.</p>
+          <p>Los resultados pasados <strong>no garantizan resultados futuros</strong>. El copy trading no constituye asesoramiento de inversión.</p>
+          <p>Esta página es personal e informativa, <strong>no es un sitio oficial de eToro</strong> y su contenido <strong>no constituye asesoramiento financiero ni de inversión</strong>. El enlace «Invierte en eToro» es un enlace de referido.</p>
         </div>
       </div>
     </section>
@@ -238,21 +156,19 @@
   <footer class="site-footer">
     <div class="container footer-inner">
       <div class="footer-brand">
-        <span class="logo-mark sm">N3</span>
-        <div>
-          <strong>Miguel Herrera Miranda</strong>
-          <span>@NIQUE3 · Canarias / Tenerife</span>
-        </div>
+        <img src="assets/profile.jpg" alt="" width="40" height="40" loading="lazy" />
+        <div><strong>Miguel Herrera Miranda</strong><span>@NIQUE3 · Canarias</span></div>
       </div>
       <div class="footer-links">
-        <a href="https://etoro.tw/2UERY67" target="_blank" rel="noopener noreferrer">eToro</a>
+        <a href="https://www.etoro.com/people/nique3" target="_blank" rel="noopener noreferrer">eToro</a>
         <a href="https://www.linkedin.com/in/miguelherreramiranda" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        <a href="https://www.instagram.com/nique3etoro/" target="_blank" rel="noopener noreferrer">Instagram</a>
+        <a href="https://x.com/NIQUE3etoro" target="_blank" rel="noopener noreferrer">X</a>
         <a href="#aviso">Aviso de riesgo</a>
       </div>
       <p class="footer-copy">© <span id="year"></span> Miguel Herrera Miranda. Página no oficial de eToro.</p>
     </div>
   </footer>
-
-  <script src="script.js"></script>
+  <script src="script.js" defer></script>
 </body>
 </html>
